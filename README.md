@@ -25,7 +25,7 @@ To get your march:
 
 Example bazel flags for bonnel CPU:
 
-`--config=opt --copt=-march=bonnell --copt=-mcx16 --copt=-mssse3 --copt=-mno-sse4 --copt=-mno-avx`
+`--config=opt --copt=-march=bonnell --copt=-mcx16 --copt=-mssse3 --copt=-msse3 --copt=-mno-sse4 --copt=-mno-avx`
 
 ### Prereqs
 
@@ -47,6 +47,6 @@ pip install -U --user keras_preprocessing --no-deps
 ### Build Tensorflow
 
 ```
-bazel build --config=opt --copt=-march=bonnell --copt=-mcx16 --copt=-mssse3 --copt=-mno-sse4 --copt=-mno-avx -k //tensorflow/tools/pip_package:build_pip_package
+bazel build --config=opt --copt=-march=bonnell --copt=-mcx16 --copt=-mssse3 --copt=-msse3 --copt=-mno-sse4 --copt=-mno-avx -k //tensorflow/tools/pip_package:build_pip_package
 ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 ```
