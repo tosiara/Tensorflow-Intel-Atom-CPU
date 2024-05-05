@@ -1,4 +1,4 @@
-# TensorFlow 2.13.0, Python 3.8, NO AVX, NO SSE4, NO CUDA, Ubuntu 20.04
+# TensorFlow 2.13.0, NO AVX, NO SSE4, NO CUDA
 
 **Wheel Specs**  
 
@@ -6,7 +6,8 @@ CPU: Intel(R) Atom(TM) CPU D2550 @ 1.86GHz (bonnell)
 
 | TF  | OS | Py | SSE3 | SSE4.1 | SSE4.2 | AVX |
 | --- | -- | -- | ---- | ------ | ------ | --- |
-|2.13.0 | Ubuntu 20.04 | 3.8 | ✅ | ❌ | ❌ | ❌ |
+|2.13.0 | Ubuntu 20.04 | 3.8  | ✅ | ❌ | ❌ | ❌ |
+|2.13.0 | Ubuntu 24.04 | 3.12 | ✅ | ❌ | ❌ | ❌ |
 
 Compiled binary wheel added to Releases
 
