@@ -8,6 +8,7 @@ CPU: Intel(R) Atom(TM) CPU D2550 @ 1.86GHz (bonnell)
 | --- | -- | -- | ---- | ------ | ------ | --- |
 |2.11.1 | Ubuntu 20.04 | 3.8  | ✅ | ❌ | ❌ | ❌ |
 |2.13.0 | Ubuntu 20.04 | 3.8  | ✅ | ❌ | ❌ | ❌ |
+|2.16.1 | Ubuntu 24.04 | 3.12 | ✅ | ❌ | ❌ | ❌ |
 
 Compiled binary wheel added to Releases
 
